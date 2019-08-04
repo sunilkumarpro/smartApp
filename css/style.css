@@ -55,26 +55,20 @@ blockquote {
     padding: 0 10px;
 }
 
-.contact {
-
-    margin-right: -5px;
-}
-
 .contact ul {
     font-size: 18px;
     float: right;
-    line-height: 30px;
 }
 
 
-.contact li {
+.contact ul li {
     padding: 0px 20px;
     list-style-type: none;
     display: inline-block;
     color: #3c3d42;
 }
 
-.contact li a {
+.contact ul li a {
     color: #3c3d42;
     text-decoration: none;
 }
@@ -82,6 +76,10 @@ blockquote {
 .contact li a:hover {
     color: #3c3d42;
     text-decoration: none;
+}
+
+.contact ul li i {
+    margin-right: 10px;
 }
 
 .banner {
