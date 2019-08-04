@@ -1,0 +1,299 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,300);
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8c9494;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+blockquote {
+    border-left: none;
+}
+
+.header-section {
+    padding-top: 28px;
+    padding-bottom: 28px;
+
+}
+
+.header-inner {
+    padding-top: 15px;
+}
+
+.logo {
+    font-size: 30px;
+    float: left;
+    font-weight: bold;
+    color: #3c3d42;
+}
+
+.logo:hover {
+    text-decoration: none;
+}
+
+.top-nav {
+    float: left;
+    display: inline-block;
+}
+
+.top-nav li {
+    float: left;
+    list-style-type: none;
+
+}
+
+.top-nav li a {
+    text-decoration: none;
+    color: #747a7a;
+    padding: 0 10px;
+}
+
+.contact {
+
+    margin-right: -5px;
+}
+
+.contact ul {
+    font-size: 18px;
+    float: right;
+    line-height: 30px;
+}
+
+
+.contact li {
+    padding: 0px 20px;
+    list-style-type: none;
+    display: inline-block;
+    color: #3c3d42;
+}
+
+.contact li a {
+    color: #3c3d42;
+    text-decoration: none;
+}
+
+.contact li a:hover {
+    color: #3c3d42;
+    text-decoration: none;
+}
+
+.banner {
+    background: url('../images/bg-image.jpg') fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 80px;
+    height: 680px;
+    border-top: 1px solid transparent;
+}
+
+.banner h2 {
+    margin-top: 160px;
+    margin-bottom: 40px;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.25;
+    color: #fff;
+}
+
+.banner h2 span {
+    display: block;
+    font-weight: lighter;
+}
+
+.features-section h2 {
+    color: #636c6c;
+}
+
+.tab-section {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.nav_feature {
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.nav_feature li {
+    position: relative;
+    list-style-type: none;
+
+}
+
+.nav_feature li a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 60px;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: #9fa9a9;
+}
+
+.nav_feature li a:hover,
+.nav_feature li.active a {
+    color: #636c6c;
+    background-color: #fff;
+}
+
+.nav_feature li a:hover .fa,
+.nav_feature li.active .fa {
+    color: #5dca88;
+}
+
+.tab-pane {
+    padding-top: 20px;
+}
+
+.tab-pane p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #afb8b8;
+}
+
+.nav_feature li a i {
+    position: relative;
+    top: 10px;
+    margin-right: 20px;
+}
+
+.img-link {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: 33%;
+}
+
+.tab-title {
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #636c6c;
+}
+
+.tab-content p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #afb8b8;
+}
+
+.product-feature {
+    margin-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f2f9fe;
+}
+
+.lead {
+    color: #8c9494;
+    margin-bottom: 40px;
+}
+
+.text-success {
+    color: #5dca88;
+}
+
+.btn-xl {
+    padding: 15px 80px;
+    font-size: 21px;
+    background-color: #f2f9fe;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.gallery-sec {
+    margin-bottom: 80px;
+}
+
+.gallery-sec h2 {
+    color: #636c6c;
+}
+
+.gallery-sec p {
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.newsletter {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f3f5f5;
+}
+
+.subscribe__form {
+    position: relative;
+    margin-top: 40px;
+}
+
+.subscribe__form .form-control {
+    padding-right: 180px;
+}
+
+.subscribe__form .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+.subscribe__form .input-lg {
+    height: 60px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #8c9494;
+    background-color: #2d312f;
+}
+
+.footer a {
+    color: #8c9494;
+}
+
+.footer__social {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer__social li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #2d312f;
+    background-color: #5d6461;
+    border-radius: 20px;
+}
+
+.footer__social li a:hover {
+    background-color: #fff;
+}
+
+.footer__nav li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
