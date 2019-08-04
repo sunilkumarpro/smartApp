@@ -229,6 +229,21 @@ blockquote {
     line-height: 24px;
 }
 
+.testimonials {
+    padding: 30px 0px;
+
+}
+
+.testimonials h3 {
+    padding: 10px 0px;
+}
+
+.testimonials span {
+    color: #5dca88;
+    font-size: 24px;
+    padding: 10px 0px;
+}
+
 .newsletter {
     padding-top: 60px;
     padding-bottom: 60px;
